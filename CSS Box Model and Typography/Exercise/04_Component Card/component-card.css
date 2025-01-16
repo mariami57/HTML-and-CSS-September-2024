@@ -1,0 +1,59 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+
+article {
+    margin: 30px auto;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden;
+    background-color: white;
+
+    
+}
+
+.image img {
+    width: 100%;
+}
+
+.main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+footer p{
+    margin: 0px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p.italic-font {
+    font-style: italic;
+}
+
+.limit-lines {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

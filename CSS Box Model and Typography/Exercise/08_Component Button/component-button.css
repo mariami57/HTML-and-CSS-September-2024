@@ -1,0 +1,50 @@
+html {
+    font-family: "Lato", sans-serif;
+}
+
+h3 {
+    padding: 10px;
+
+}
+
+body a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a, button {
+    border: 1px solid lightgray;
+    border-radius: 10%;
+    padding: 12px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.grey {
+    background: lightgray;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: rgb(247, 247, 225);
+}
+
+.white {
+    background: white;
+}
+
+.edit {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3.button-header {
+    padding-bottom: 0px;
+}
+
+.button {
+    cursor: pointer;
+}

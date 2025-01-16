@@ -1,0 +1,30 @@
+@media (max-width:600px) {
+    header nav ul li {
+        display:flex;
+        justify-content:center;
+        margin: 10px auto;
+        
+    }
+    
+    .header-title{
+        padding:20px;
+    }
+    
+    .header-title h1 {
+        font-size: 2.4em;
+    }
+    
+    .choose-us ul {
+        display:block;
+        
+    }
+    
+    .choose-us ul li {
+       padding:10px;
+    }
+    
+    
+    .team-description ul {
+        justify-content: center;
+    }
+}

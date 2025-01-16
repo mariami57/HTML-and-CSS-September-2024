@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, select, button {
+    font: inherit;
+}
+
+body {
+    background: #f0f1f7;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+
+.login {
+    background:white;
+    flex: 0 1 50%;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.login input {
+    display: block;
+    width: 100%;
+    line-height: 1;
+}
+
+.login .field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 0.5em;
+    margin-bottom: 2em;
+
+}
+
+.login header {
+    padding-bottom: 4em;
+}
+
+.login .field label {
+    order: -1;
+    line-height: 1em;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    transition: 
+        transform 0.3s ease-in-out;
+}
+
+.login .field input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.login .field input::placeholder {
+    color: transparent;
+}
+
+.login .field input:not(:placeholder-shown) ~ label {
+    transform: translateY(-1em);
+    opacity: 1;
+    
+}
+
+.login .field input:required ~ label::after {
+    display: inline-block;
+    content: "*";
+    color: red;
+}

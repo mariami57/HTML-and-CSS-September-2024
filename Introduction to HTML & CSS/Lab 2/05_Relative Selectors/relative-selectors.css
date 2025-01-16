@@ -1,0 +1,34 @@
+* {
+    font-family: 'Calibri'; 
+    letter-spacing: -1px;
+
+}
+
+section.highlighted  p {
+    background-color: salmon;
+    color: rgb(75, 74, 74);
+    font-weight: 500;
+    padding: 1px 1px 1px 1px;
+}
+
+ul.main > li {
+    list-style: none;
+    font-weight: bold;
+}
+
+article+article.white-highlight {
+    color: rgb(94, 85, 85);
+}
+
+h2~p {
+    color: #5a5cfa;
+}
+
+li.follow-up {
+    list-style: none;
+    font-weight: bold;
+}
+
+ul.follow-up:first-child {
+    font-size: medium;
+}

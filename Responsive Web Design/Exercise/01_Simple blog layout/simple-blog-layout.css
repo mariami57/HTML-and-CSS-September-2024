@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background: lightgray;
+    
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px
+}
+
+.content-container > * {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+header, footer {
+    flex: 0 0 100%;
+}
+
+main {
+    flex-grow: 7;
+}
+
+aside {
+    flex-grow: 3;
+}
+
+@media (width:800px) {
+   main, aside {
+    flex: 0 0 100%;
+   }
+
+
+}

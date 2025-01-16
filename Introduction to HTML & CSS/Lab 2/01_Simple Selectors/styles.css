@@ -1,0 +1,29 @@
+h1 {
+   color: red; 
+}
+
+p {
+    font-size: smaller;
+}
+
+.highlight {
+    background-color: antiquewhite;
+}
+
+#maintitle {
+    background-color: aliceblue;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul {
+    background-color: blue;
+    color: white;
+    list-style-type:square;
+}
+
+div {
+    background-color: chocolate;
+}

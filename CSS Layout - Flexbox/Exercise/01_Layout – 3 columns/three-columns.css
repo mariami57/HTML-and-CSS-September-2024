@@ -1,0 +1,60 @@
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body {
+    background: lightgray;
+    font-family: 'Lato', sans-serif;
+}
+
+article {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 3px;
+}
+
+header.mainheader, footer {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    
+    padding: 30px;
+    margin: auto;
+}
+
+main div {
+    flex: 0 0 calc( (100% / 3) - (2 * 40px)  );
+    padding: 40px;
+}
+
+header p, footer{
+    opacity: 80%;
+    font-style: italic;
+}
+
+
+
+header:after,
+footer:before {
+    display: block;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #EEE;
+    margin: 30px auto 0 auto;
+}
+
+
+
+

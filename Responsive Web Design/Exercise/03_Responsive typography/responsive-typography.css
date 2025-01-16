@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Lato, sans-serif;
+    background: #EEE;
+    
+}
+
+.container {
+    background: white;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.element > * {
+    padding: 10px;
+}
+
+ul, ol {
+    padding-left: 20px; /* or adjust this value as needed */
+    margin-left: 30px; /* add space between list and content */
+}
+
+li {
+    margin-bottom: 10px; /* Optional: add spacing between list items */
+}
+
+.main-list {
+    list-style: square;
+}
+
+.nested-list1 {
+    list-style: disc;
+}
+
+.nested-list2 {
+    list-style: circle;
+}
+
+#info {
+    border-collapse: collapse;
+    width: 98%;
+    margin: 10px;
+  }
+#info tr, #info td {
+    border: 2px solid silver;
+    padding: 8px;
+}
+#info tr:nth-child(even){
+    background: lightgray;
+}
+
+#info th{
+    background-color: rgb(223, 218, 218);
+    text-align: left;
+    padding: 8px;
+
+}
+
+.header-part {
+    background: rgb(160, 160, 160);
+}
+
+
+blockquote {
+    border-left: 2px solid lightgray;
+    padding: 10px;
+    font-style: italic;
+    margin-left:40px;
+}
+
+
+
+blockquote footer {
+    text-align: right;
+}
+
+.main-footer element {
+    padding: 0;
+}

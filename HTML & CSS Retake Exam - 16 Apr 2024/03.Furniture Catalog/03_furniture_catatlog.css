@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+
+.logo-and-nav img {
+    width: 80px;
+}
+
+.part1 {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.logo-and-nav {
+    justify-content: space-around;
+    display: flex;
+    padding:10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+ul li {
+    list-style:none;
+    font-weight: 900;
+}
+
+.text-header {
+    margin-top: 30px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    border:none;
+    padding: 15px;
+    border-radius:5px;
+    font-size: 1em;
+    font-weight:700;
+    color:#282828;
+    margin-top: 10px;
+}
+
+.part2, .part4 {
+    background:hsl(192.99deg 43.89% 56.67%);
+    padding: 20px 30px;
+    
+}
+
+.part2-header, .part4-header {
+    text-align: center;
+}
+
+.part2-container .projects .project img {
+    width: 120px;
+    aspect-ratio: 1/1;
+}
+
+.part2-container .projects {
+    max-width: 60%;
+    margin: 12px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+.part2-container .projects .project {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+   
+}
+
+.project > * {
+    flex: 0 0 calc(100% /2)
+}
+
+.project .text{
+    background:white;
+    font-size: 0.8em;
+    text-align:center;
+    padding:10px;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+
+.logo-and-nav img {
+    width: 80px;
+}
+
+.part1 {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.logo-and-nav {
+    justify-content: space-around;
+    display: flex;
+    padding:10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+ul li {
+    list-style:none;
+    font-weight: 900;
+}
+
+.text-header {
+    margin-top: 30px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    border:none;
+    padding: 15px;
+    border-radius:5px;
+    font-size: 1em;
+    font-weight:700;
+    color:#282828;
+    margin-top: 10px;
+}
+
+.part2, .part4 {
+    background:hsl(192.99deg 43.89% 56.67%);
+    padding: 20px 30px;
+    
+}
+
+.part2-header, .part4-header {
+    text-align: center;
+}
+
+.part2-container .projects .project img {
+    width: 120px;
+    aspect-ratio: 1/1;
+}
+
+.part2-container .projects {
+    max-width: 60%;
+    margin: 12px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+.part2-container .projects .project {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+   
+}
+
+.project > * {
+    flex: 0 0 calc(100% /2)
+}
+
+.project .text{
+    background:white;
+    text-align:center;
+    padding:20px;
+    height:156.19px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.project .text h6 {
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+
+.project .text p {
+    font-size: 0.6em;
+    text-align:left;
+}
+
+section.part3 {
+    display: flex;
+}
+
+
+section.part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section.part3 > * {
+    flex: 0 0 calc( 100% / 3);
+}
+
+.furn {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+    
+}
+
+
+.furn img {
+    width: 50%;
+}
+
+.furn .text {
+    text-align: center;
+    color: grey;
+}
+
+
+img.table {
+    width: 32%;
+}
+
+.part4-container {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.part4-container .part-header {
+    flex: 0 0 100%;
+    text-align:center;
+    padding: 20px;
+}
+
+.part4-container .projects {
+    display: flex;
+    margin: auto;
+    gap: 30px;  
+}
+
+
+.project img{
+    width: 100%;
+    
+}
+
+.project img.bird {
+    width: 80%;
+    height:88%;
+    margin-left: 50px;
+    
+}
+
+.part5 {
+    text-align:center;
+    margin: 20px;
+    color:grey;
+    
+}
+
+.part5 .part-header p {
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+footer {
+    background:#363434;
+    color:white;
+    text-align:center;
+    padding: 10px;
+}

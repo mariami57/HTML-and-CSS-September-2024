@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness calculator</title>
+    <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+<body>
+    <div class="container d-flex">
+        <div class="left-part">
+            <img src="image/calculator.png" alt="running-man">
+        </div>
+
+        <div class="right-part d-flex align-center direction-column">
+            <h1>FITNESS CALCULATOR</h1>
+            <div class="buttons d-flex">
+                <a href="#" class="green">Standart units (US)</a>
+                <a href="#" class="grey">Metric units</a>
+            </div>
+
+            <div class="gender d-flex align-center direction-column gap-20">
+                <h3>Gender</h3>
+                <div class="inputs d-flex align-center gap-20 justify-center">
+                    <form action="/submit-form">
+                        <label for="options">Options </label>
+                        <select name="options" id="options">
+                            <option value="option1">Female</option>
+                            <option value="option2">Male</option>
+                            <option value="option3">Other</option>
+                        </select>
+                    </form>
+
+                    <label for="age">age</label>
+                    <input type="number" id="age" name="age" placeholder="Years...">
+                </div>
+            </div>
+
+        <div class="weight d-flex align-center direction-column gap-20">
+            <h3>Weight</h3>
+            <label for="weight">weight</label>
+            <input type="number" id="weight" name="weight" placeholder="Pounds...">
+        </div>
+
+
+        <div class="height d-flex align-center direction-column gap-20">
+            <h3>Height</h3>
+            <label for="height">height</label>
+            <div class="inputs d-flex align-center">
+                <input type="number" id="feet" name="feet" placeholder="Feet...">
+                <input type="number" id="inches" name="inches" placeholder="Inches...">
+            </div>
+        </div>
+
+        <div class="Calculate d-flex align-center justify-center direction-column ">
+            <input type="submit" value="Calculate">
+        </div>
+        </div>
+    </div>
+</body>
+</html>

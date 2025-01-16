@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #eee;
+    font-family: Lato, sans-serif;
+}
+
+
+.QuoteContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+.article {
+    background: white;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-article {
+    flex: 0 0 calc( 70% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+i {
+    font-size: 40px;
+}
+
+
+.right-article {
+    flex-grow: 1;
+}
+
+.outer-circle {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+
+.inner-circle {
+    background: green;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+.leftQuotes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 0 0 60%;
+}
+
+.RightQuotes {
+    flex: 0 0 calc( 40% - 40px);
+    flex-direction: column;
+    display: flex;
+}
+
+.RightQuotes .article {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background: lightgray;
+    font-family: 'Lato', sans-serif;
+}
+
+
+section.calendar {
+    background: white;
+    margin: 40px auto;
+    padding: 5px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 0;
+   
+}
+
+
+.days{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+article div {
+    border: 1px solid lightgray;
+    padding: 30px;
+}
+
+.days .full-size {
+    flex: 0 0 100%;
+}
+
+.weekday {
+    flex: 0 0 calc(100% / 5);
+}
+
+.weekendday {
+    flex: 0 0 calc(100% / 2);
+
+}
+
+.additional {
+    flex-wrap: wrap;
+    flex: 0 0 calc(50% / 2);
+}
+
+.reminder, .special {
+    padding: 20px 50px 200px 30px;
+    width: auto;
+}
+
+
+
+

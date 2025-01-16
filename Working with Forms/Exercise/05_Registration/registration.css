@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, select, button {
+    font: inherit;
+}
+
+
+body {
+    background: #f0f1f7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+
+.reg {
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* flex: 0 0 500px; */
+    padding: 2em;
+}
+
+.reg > * {
+    margin: 20px;
+}
+
+fieldset {
+    padding: 1em 2em 2em 2em;
+    border-radius: 3px;
+    border: 2px solid #dadbe0;
+
+}
+
+fieldset legend {
+    padding: 0 1em;
+    margin-left: -1em;
+    opacity: 90%;
+    font-weight: 600;
+}
+
+.reg fieldset .info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset label {
+    order: -1;
+    font-weight: 600;
+
+}
+
+.reg fieldset .info > input {
+    border: none;
+    border-bottom: 2px solid #dadbe0;
+    
+}
+
+.daate-text {
+    border-bottom: 2px solid #dadbe0;
+    display: flex;
+}
+
+.daate-text input {
+    border: none;
+
+}
+
+input#date {
+    flex: 1 0 90%;
+}
+
+i {
+    opacity: 1; /* Initially visible */
+    transition: opacity 0.2s ease; /* Smooth transition */
+  }
+  input#date:focus + i {
+    opacity: 0; /* Hide icon on focus */
+  }
+
+.helper-info {
+    opacity: 60%;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+
+input[type="submit"] {
+    padding: 20px;
+    /* display: flex; */
+    /* max-width: 100%; */
+    border: none;
+    border-radius: 5px;
+    background: #dadbe0;
+    font-weight: 700;
+}

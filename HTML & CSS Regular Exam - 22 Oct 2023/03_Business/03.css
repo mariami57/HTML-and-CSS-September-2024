@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "PT Serif", serif;
+}
+
+ul li {
+    list-style: none;
+}
+.heading {
+    width: 100%;
+    height: 600px;
+    position:relative;
+}
+
+.backgound {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.backgound img {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: flex;
+    gap: 30px;
+}
+
+.text-heading {
+    left: 150px;
+    width: 30%;
+    margin: 10px auto;
+    position: absolute;
+    color: white;
+    z-index: 3;
+    top: 150px;
+}
+
+.text-heading h1{
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+.text-heading p {
+    padding-top: 20px;
+    font-size:0.8em;
+    line-height:1.6;
+}
+
+.objectives {
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    border-bottom: 2px solid silver;
+}
+
+.objectives > * {
+    flex: 0 0 35%;
+}
+
+.left-obj, .right-obj {
+    padding: 50px;
+}
+
+.left-obj h2, .right-obj h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    padding-bottom:15px;
+}
+
+.left-obj p, .right-obj p {
+    
+    font-size:0.8em;
+    opacity: 0.7;
+    padding-bottom: 30px;
+    color:hsl(276.73deg 27.37% 35.1%);
+}
+
+.left-obj a, .right-obj a {
+    font-weight:600;
+    color: hsl(27.14deg 34.71% 52.55%);
+    border: 2px solid hsl(27.14deg 34.71% 52.55%);
+    padding: 8px 15px;
+} 
+
+.sponsors-and-partners {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.sponsors-and-partners h2 {
+    color: hsl(27.14deg 34.71% 52.55%);
+    font-size: 1.8em;
+     font-weight: 500;
+    
+}
+
+.sponsors-and-partners p{
+    font-size:0.8em;
+    opacity: 0.6;
+    
+}
+
+.images {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding:10px;
+}
+
+.image1 img, image2 img {
+    width:120px;
+    height: 120px;
+    padding:20px;
+    background:#e4dfdf;
+    border-radius: 50%;
+}
+
+.references {
+    background: hsl(240deg 16.36% 10.78%);
+    display:flex;
+    padding: 30px 0;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.ref h3 {
+    color:white;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.ref ul {
+    color: hsl(10.77deg 7.43% 72.99% / 61%);
+    text-transform:uppercase;
+    line-height:1.6;
+    font-size: 0.8em;
+}
+
+.section-footer {
+
+    background: hsl(240deg 16.36% 10.78%);
+    padding: 10px 130px;
+    color: hsl(10.77deg 7.43% 72.99% / 61%);
+    font-size: 0.7em;
+}

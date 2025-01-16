@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "PT sans", sans-serif;
+    width: 1200px;
+
+   
+}
+
+ul li {
+   list-style: none;
+}
+
+.container {
+    width: 1200px;
+}
+
+.red-backgound{
+    background: hsl(0deg 78.54% 45.69%);
+}
+
+.white-color {
+    color: white;
+}
+
+.red-color{
+    color: hsl(0deg 78.54% 45.69%);
+    font-weight: 600;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.info {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social-media {
+    gap:10px;
+}
+
+header, .banner, .banner img {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+}
+
+.background img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+
+}
+
+nav {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+nav ul {
+    gap:40px;
+    padding: 10px;
+}
+
+.headings {
+    position: absolute;
+    top:200px;
+    text-align: center;
+    left:300px;
+    flex-direction: column;
+}
+
+.headings h1 {
+    letter-spacing: 7px;
+    font-size:2.5em;
+}
+
+.gap-20 {
+    gap:20px;
+}
+
+.headings p, .headings a {
+    width: 70%;
+    margin: auto;
+}
+
+.headings a {
+    width: max-content;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+.benefits ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.similar {
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+.similar ul li p {
+    text-align: center;
+    font-size: 0.9em;
+    width: 70%;
+}
+
+.benefits ul, .coaches ul {
+    justify-content: space-around;
+}
+
+.benefits ul li, .coaches ul {
+    flex: 0 0 calc( 100% / 3 );
+    gap:10px;
+}
+
+
+.highlight {
+    display: inline-block;
+    background-color:  hsl(0deg 78.54% 45.69%);;
+    width: 30px; /* Adjust width of the line */
+    height: 2px; /* Adjust height of the line */
+    margin: 10px auto; /* Center the line */
+    position: relative;
+    top: -10px; /* Adjust to move closer or further from the text */
+}
+
+.section2 {
+    background: hsl(0deg 0% 93.73%);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+.coaches ul li img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.coaches ul li {
+    gap: 15px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.coaches ul li p:last-child {
+    opacity: 0.5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

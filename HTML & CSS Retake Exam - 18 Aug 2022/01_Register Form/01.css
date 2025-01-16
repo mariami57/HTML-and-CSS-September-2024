@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    width: 1200px;
+
+   
+}
+
+ul li {
+    list-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.form-conatiner {
+    width: 660px;
+    left: 25%;
+    position: absolute;
+    height: 453.19px;
+    margin: auto;
+    top: 25%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.background-form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.background-form img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+form {
+    position: absolute;
+    top: 0;
+    padding: 50px;
+    gap:10px;
+    font-size: 0.7em;
+    width: 55%;
+}
+
+form h3 {
+   text-align: center;
+   font-size: 1.5em;
+
+}
+
+.names {
+    gap: 10px;
+    width: 50%;
+}
+
+.br-30 {
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid #cecece;
+}
+
+.first input[type="text"], .second input[type="text"] {
+    width: 125px;
+}
+
+.first, .second{
+    gap:5px;
+}
+
+label input[type="checkbox"] {
+    background-color: #cecece;
+}
+
+input[type="submit"] {
+    background: hsl(4, 55%, 43%);
+    color: white;
+    width: max-content;
+    font-size: 1em;
+    padding: 8px 16px;
+    align-self: center;
+    margin-top: 20px;
+
+}
+.opacity {
+    opacity: 0.7;
+}

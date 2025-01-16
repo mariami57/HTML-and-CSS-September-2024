@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+    width: 1200px;
+
+   
+}
+
+ul li {
+    list-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid silver;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+
+.left-part {
+    /* Flex settings for layout */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Center image vertically */
+}
+
+.left-part img {
+    object-fit: cover;  /* Fills the container, cropping if necessary */
+    width: 100%;  /* Prevents image from going outside container */
+    height: 100%;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-20 {
+    gap:20px;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+label {
+    display:none;
+}
+
+.right-part { 
+    background: rgb(236, 234, 234);
+    flex-grow: 1;
+    padding: 50px 20px;
+    gap:10px;
+}
+.right-part h1 {
+    font-size: 1.5em;
+}
+
+.right-part .buttons {
+    gap:100px;
+    padding-top: 20px;;
+}
+
+.right-part h3 {
+    font-size: 0.8em;
+}
+.green {
+    background: hsl(101.69deg 60.2% 61.57%);
+    padding: 3px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.grey {
+    background: hsl(60deg 1.59% 87.65%);
+    padding: 5px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.gender {
+    padding: 0 30px;;
+   
+}
+
+select {
+    padding: 0 100px 0 0;
+}
+
+.weight {
+    width: 100%; /* You can change this to any size like 50%, 300px, etc. */
+    max-width: 400px; /* Optional: Sets a maximum width */
+    padding: 10px;
+    box-sizing: border-box; /* Includes padding in the width calculation */
+}
+
+input[type='number'] {
+    padding: 3px 0;
+    width: 100%;
+    font-size: 0.7em;
+}
+
+
+.height .inputs {
+    gap:10px;  
+    width: 410px;
+    
+}
+
+.height .inputs input[type='number'] {
+    flex-basis: 0;  /* Flexbox property to handle equal space */
+    flex-grow: 1;   /* Make the inputs grow equally */
+    min-width: 0;   /* Prevents inputs from overflowing their container */
+    font-size: 0.8em;
+    border-radius: 3px;
+    font-size: 0.7em;
+    border: 1px solid silver;
+}
+
+.Calculate {
+    width: 430px;
+    padding-top: 40px;
+    ;
+}
+
+input[type="submit"] {
+    width: 100%;
+    color: white;
+    padding: 6px;
+    background: hsl(194.27deg 95.37% 42.35%);
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 600;
+}

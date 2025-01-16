@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <img src="images/background.png" alt="pink-and-palms">
+        </div>
+        <div class="form-conatiner">
+            <div class="background-form">
+                <img src="images/form-background.png" alt="clock-coffee-laptop">
+            </div>
+            <form class="d-flex direction-column">
+                <h3 class="capitalize">Registration Form</h3>
+                <div class="names d-flex">
+                    <div class="first d-flex direction-column opacity">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" class="br-30">
+                    </div>
+
+                    <div class="second d-flex direction-column opacity">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" class="br-30">
+                    </div>
+                </div>
+
+                <label for="email" class="opacity">Email</label>
+                        <input type="email" id="email" name="email" class="br-30 ">
+                
+                
+                <label for="password" class="opacity">Password</label>
+                <input type="password" id="password" name="password" class="br-30">
+
+                <label for="confirm-password" class="opacity">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" class="br-30">
+
+                <label class="opacity">
+                    <input type="checkbox" name="option2" value="option2">
+                    I   accept the Terms of Use & Privacy Policy.
+                </label>
+
+                <input type="submit" value="Register Now" class="capitalize br-30">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

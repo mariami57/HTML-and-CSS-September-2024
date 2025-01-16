@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 50px auto;
+    font-family: 14px/1.5 Lato, sans-serif;
+    width: 50%;
+    background: rgb(230, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard {
+    display: block;
+    flex-wrap: wrap;
+    background: lightgray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    align-items: flex-start;
+}
+
+.first-row, .second-row, .third-row,.fourth-row, .fifth-row, .sixth-row {
+    display: flex;
+    margin: 5px;
+}
+
+
+.keyboard div {
+    flex: 0 0 calc(100% / 6);
+    
+}
+
+
+
+button {
+    height: 3em;
+    aspect-ratio: 1.1/1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 3px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none; /* Removes the default focus outline */
+    white-space: nowrap;
+    box-shadow: 0 0.2em 0 0 #BBB;
+    text-transform: lowercase;
+    transition:
+        background-color 0.1s ease-in-out,
+        border-color 0.1s ease-in-out,
+        color 0.1s ease-in-out;
+}
+
+.key-space {
+    flex-grow: 8;
+}
+
+.first-row button{
+    height: 2.5em;
+    aspect-ratio: 1.43/1;
+}
+
+.bigger {
+    flex-grow: 1;
+}
+
+.bigger2 {
+    flex-grow: 3;
+}
+
+.button.caps {
+    flex-grow: 3;
+}
+
+.button.bigger.enter{
+    flex-grow: 2;
+}
+.third-row .enter::after {
+    display: block;
+    content: '';
+    background-color: inherit;
+    border: inherit;
+    box-shadow: inherit;
+    border-radius: inherit;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-top: none;
+    width: 45px;
+    height: 55px;
+    margin: 5px;
+    position: relative;
+    top: 15px;  /* Adjust to move down */
+    left: 16px; /* Adjust to move left under Enter key */
+}

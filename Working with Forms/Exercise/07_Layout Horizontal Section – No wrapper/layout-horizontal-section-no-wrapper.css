@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, select, button {
+    font: inherit;
+}
+
+
+body {
+    border: 2px solid green;
+    padding: 2em;
+}
+
+body > * {
+    border: 2px solid blue;
+    margin-bottom: 1em;
+    padding: 2em calc((100vw - 900px) / 2);
+}
+
+.bold {
+    font-weight: 600;
+}

@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+header {
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+}
+
+nav ul {
+    display:flex;
+    gap:20px;
+}
+
+
+.mint {
+    background: hsl(176.6deg 47.75% 78.24%);
+}
+
+.buttons> * {
+    padding-right: 20px;
+}
+.buttons .mint {
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.first {
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.first h1 {
+    font-size:3em;
+}
+
+.first p {
+    font-size: 0.8em;
+}
+
+.first .buttons {
+    padding-top:20px;
+}
+
+.first .buttons a {
+    color:white;
+    background:black;
+    padding:15px 20px;;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.first .buttons i {
+    font-size: 0.8em;
+}
+
+.stats {
+    padding:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+
+.stat {
+    text-align:center;
+    padding:20px;
+    border-left: 1px solid silver;
+}
+
+.stat h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.stat p {
+    padding-bottom: 30px;
+}
+
+.stats .stat:last-child {
+    border-right: 1px solid silver;
+}
+
+.benefits {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+    width: 100%;
+}
+
+.benefits .left-part {
+    border: 1px dashed gray;
+}
+
+.benefits .right-part {
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+    flex: 0 0 25%;
+    
+}
+
+.benefits h2 {
+    font-size: 2em;
+}
+
+.paragraph-group h3 {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.benefits a, .benefits i{
+    text-decoration-skip-ink: none;
+    text-decoration: underline;
+}
+
+.benefits i {
+    font-size: 0.8em;
+}
+
+.pricing {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background: hsl(222.86deg 41.18% 96.67%);
+}
+
+.pricing > * {
+    margin-bottom: 20px;
+}
+
+.pricing a {
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.pricing h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+
+.plans {
+    flex-grow: 1;
+    display:flex;
+    border: 1px solid silver;
+    border-radius:15px;
+    overflow:hidden;
+    
+   
+}
+
+.left-plans {
+    flex: 0 0 60%;
+    padding: 30px 0;
+    background:white;
+    display:flex;
+}
+
+.type-plan {
+    padding: 0 20px 10px 20px;
+    flex: 0 0 calc(100% / 3);
+    display:flex;
+    flex-direction:column;
+}
+
+.type-plan h3 {
+    text-align:center;
+}
+
+.type-plan p {
+    font-size: 0.9em;
+    opacity:0.8; 
+}
+
+.left-plans> *:not(:last-child) {
+    border-right: 1px solid silver;
+}
+
+.type-plan h2{
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    margin-bottom: 20px;
+}
+
+span.smaller {
+    font-size: 0.5em;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.type-plan ul {
+    list-style: none;
+}
+
+.type-plan ul li:before {
+    content: "\2713";
+}
+
+.type-plan ul li {
+    line-height: 2;
+    font-size: 0.7em;
+}
+
+.type-plan a {
+    text-align:center;
+    justify-items:center;
+    padding: 20px 15px;
+}
+
+.right-info {
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.right-info h3:first-child, .right-info a{
+    text-align:center;
+}
+
+.right-info h3:nth-child(2) {
+    font-weight: 500;
+}
+
+.right-info ul {
+    list-style:none; 
+    padding:20px 0;
+    line-height:1.8
+}
+
+.right-info ul li:before {
+    content: "\2713";
+    
+}
+
+.right-info a {
+    margin-top:128px;
+    background:black;
+    color:white;
+    padding: 20px 15px;
+}
+
+.call-to-action {
+    padding: 30px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action h1 {
+    font-size: 3em;
+}
+
+.call-to-action p {
+    padding-bottom: 60px;
+}
+
+.call-to-action .buttons a {
+    color:white;
+    background:black;
+    padding:15px 20px;;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.footer {
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
+.social-media {
+    
+    display:flex;
+    gap: 15px;
+}

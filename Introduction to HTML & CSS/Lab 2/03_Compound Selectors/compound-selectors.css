@@ -1,0 +1,41 @@
+p.blue {
+    color: lightblue;
+    font-size: medium;
+    
+
+}
+
+div#special {
+    background-color: orange;
+    box-shadow: 1px 1px 1px 1px rgba(199, 197, 197, 0.8);
+    
+}
+
+[type="text"].input {
+    background-color: orange;
+    border-color: orange;
+    border:none;
+    color: black;
+    padding: 5px;
+}
+
+li.blue {
+    color: aqua;
+    
+}
+
+p.blue.default.bold {
+    color: blue;
+   
+}
+
+.red.italic{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.underlinetwice{
+    color: lightsalmon;
+
+}

@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    position: relative;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+}
+
+.background img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.profiles {
+    position:absolute;
+    z-index: 3;
+    top:10%;
+    width:60%;
+    display:flex;
+    gap:20px;
+}
+
+.left-part {
+    flex: 0 0 calc(70% - 10px);
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.person {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left-part .person{
+    padding: 30px;
+    display:flex;
+    gap: 20px;
+    align-items:center
+}
+
+.person .left-side i {
+    font-size: 2.5em;
+}
+
+.person p {
+    opacity: 0.7;
+    padding:10px 0;
+    font-size:0.6em;
+}
+
+.person .author {
+    opacity:1;
+    font-weight:600;
+    font-size: 0.9em;
+} 
+
+
+.left-part .person .author-img img {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+
+.right-part {
+    flex: 0 0 calc( 30% - 10px);
+    
+}
+
+.right-part .person {
+    padding: 30px;
+}
+
+.right-part .person i{
+    font-size: 3em;
+}
+
+.text {
+    margin: 37px 0;
+}
+
+.bottom-right{
+    display:flex;
+    gap:10px;
+    border-top: 1px solid #cecece;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.bottom-right .author-img img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    object-fit:cover;
+    order:-1;
+}
+
+.bottom-right .author-info {
+    order: 1;
+}
+
+.bottom-right .author-info p {
+    padding-bottom: 0;
+    padding-top:0;
+}

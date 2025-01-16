@@ -1,0 +1,11 @@
+.details{
+    color: rgb(104, 99, 99);
+}
+
+time {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}

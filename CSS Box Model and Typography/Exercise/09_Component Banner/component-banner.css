@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+section {
+    width: 100%; /* Ensures the section spans the full width */
+    min-height: 100vh; /* Makes the section at least the height of the viewport */
+ 
+}
+
+
+.lounge-image {
+    background-image:url(image1.jpg);
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+
+}
+
+.content {
+    position: relative;
+    color: white; /* Text color for better contrast */
+    text-align: center;
+    padding: 335px;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+}

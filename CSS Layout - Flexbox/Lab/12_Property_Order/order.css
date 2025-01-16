@@ -1,0 +1,47 @@
+div.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+div.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+div.custom-order .order5{
+    order: 5;
+
+}
+
+div.custom-order .order1{
+    order: 1;
+
+}
+
+
+div.custom-order .order2{
+    order: 2;
+
+}
+
+div.custom-order .order3{
+    order: 3;
+
+}
+
+div.custom-order .order4{
+    order: 4;
+
+}
+
+div.custom-order .order6{
+    order: 6;
+
+}
+
+
+

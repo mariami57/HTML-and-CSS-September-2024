@@ -1,0 +1,58 @@
+.nav-menu {
+    list-style: none; /* Remove bullet points */
+    padding: 0;       /* Remove default padding */
+    margin-top: 5 px;        /* Remove default margin */
+    display: flex;    /* Display list items in a row */
+}
+
+.nav-menu li {
+    margin-right: 5px; /* Add space between list items */
+}
+
+
+.nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last item if desired */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+}
+
+h1, h2, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+section, footer {
+    margin-bottom: 10px;
+    padding: 0;
+
+}
+
+#section1, #section2, footer{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.sectionlink {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,.sectionlink:hover {
+    color: blue;
+    
+}
+
+nav, #section1, #section2, footer {
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+}
+

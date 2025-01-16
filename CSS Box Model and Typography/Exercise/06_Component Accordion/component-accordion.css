@@ -1,0 +1,26 @@
+body {
+    margin: 20px auto;
+    border: 2px solid lightgray;
+    width: 50vw;
+    
+}
+
+details {
+    padding: 20px;
+}
+
+summary {
+    list-style: none; /* Remove default marker */
+    cursor: pointer;  /* Make it look clickable */
+    position: relative;
+    padding-left: 20px; /* Add padding to make space for the custom symbol */
+  }
+  
+  summary::before {
+    content: '>'; /* Custom symbol */
+    position: absolute;
+    left: 0; /* Position the symbol */
+    top: 0;
+    transition: transform 0.2s ease; /* Animation for the symbol rotation */
+    
+  }
